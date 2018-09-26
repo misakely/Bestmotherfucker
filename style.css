@@ -1,0 +1,180 @@
+html.inverted {
+
+    background-color: #010101;
+
+}
+html.contrast body {
+
+    color: #050505;
+
+}
+body {
+
+    font-family: Open Sans,Arial;
+    color: #454545;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+
+}
+html {
+
+    background-color: #fefefe;
+
+}
+body{
+    max-width: 800px;
+    font-family: Open Sans,Arial;
+	margin: 40px auto;
+    line-height: 1.4;
+    text-align: justify;
+	font-size: 16px;
+	color:#454545;
+	padding: 10px;
+}
+
+a{
+	color:#07a;
+}
+h1,h2,h3{
+	line-height: 1.2;
+}
+span.mfw{
+	color: #730000;
+}
+span.wr{
+	color:#c0392b;
+	font-weight: 600;
+	text-decoration: underline;
+}
+span.sb{
+	color:#00e;
+}
+span.sv{
+	color:#551a8b;
+}
+ul  li img{
+	height: 1em;
+}
+span.foufoufou {
+    color: #444;
+    font-weight: 700;
+}
+span.foufivfoufivfoufiv {
+    color: #454545;
+    font-weight: 700;
+}
+div.fancyPositioning div.picture-left img {
+    width: 100%;
+}	
+
+div.fancyPositioning div.picture-left {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+div.fancyPositioning div.picture-left {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+}
+
+blockquote {
+
+    color: #456;
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+blockquote::before {
+
+    font-family: Times New Roman,Times,Arial;
+    color: #666;
+    content: open-quote;
+    font-size: 2.2em;
+    font-weight: 600;
+    float: left;
+    margin-top: 0;
+    margin-right: .2rem;
+    width: 1.2rem;
+
+}
+
+blockquote span {
+
+    float: left;
+    margin-left: 1rem;
+    padding-top: 1rem;
+
+}
+
+blockquote author::before {
+
+    content: "- ";
+    margin-right: 1em;
+
+}
+
+blockquote author {
+
+    display: block;
+    clear: both;
+    font-size: .6em;
+    margin-left: 2.4rem;
+    font-style: oblique;
+
+}
+blockquote::after {
+
+    content: "";
+    display: block;
+    clear: both;
+
+}
+a.kopimi, a.kopimi img.kopimi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3em;
+}
+div.fancyPositioning div.picture-left p.caption {
+    font-size: .7em;
+}
+small {
+    font-size: .4em;
+}
+div#invmode {
+
+    color: #fff;
+    background-color: #000;
+    top: 34px;
+    padding: 2px 5px;
+    
+
+}
+div#contrast {
+
+    color: #000;
+
+    top: 10px;
+   
+
+}
+div#contrast, div#invmode {
+
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    font-size: .8em;
+    text-decoration: underline;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+
+}
